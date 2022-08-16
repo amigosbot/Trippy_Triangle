@@ -33,19 +33,21 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/82cea8cd9e2cfa08b8f3e.jpg",
+        photo=f"https://te.legra.ph/file/309f7a7c61d99977a6fd7.jpg",
         caption=f"""**
 『It's a Music bot without lag and struck .
-  It's a official Music bot of @kk_kovilakam 
+  It's a official Music bot of [🗣«°ƜƐ ƮɑȴΚʂ ɑ ԼօТ°»✍ 2.0](https://t.me/Malayalam_Friends_Chat) 
 Nb : Bot and Userbot are locked by owner ,
      who wish to add this bot to your group,
-     then , contact @CRUAL_MIND』
+     
 **""",
 reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "『🅖🅡🅞🅤🅟』", url=f"https://t.me/Kerala_Cousinsofficial")
+                        "🔱🅖🅡🅞🅤🅟🔱", url=f"https://t.me/Malayalam_Friends_Chat"),
+                    InlineKeyboardButton(
+                        "🔱𝗢𝘄𝗻𝗲𝗿🔱", url=f"https://t.me/Lankeshanraavann"),
                 ]
             ]
         ),
@@ -55,13 +57,13 @@ reply_markup=InlineKeyboardMarkup(
 @Client.on_message(commandpro(["/start", "/alive", "blackcat"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/82cea8cd9e2cfa08b8f3e.jpg",
-        caption=f"""**ഇപ്പോഴും ജീവനോടെ ഉണ്ട് . ചത്തിട്ടില്ല**""",
+        photo=f"https://te.legra.ph/file/9dee892784a833fc1344e.jpg",
+        caption=f"""**Me on Ultra Fast,Laggless, and No struck**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "GrouP", url=f"https://t.me/Kerala_Cousinsofficial")
+                        "🔱രാവണൻ🔱", url=f"https://t.me/Lankeshanraavann")
                 ]
             ]
         ),
