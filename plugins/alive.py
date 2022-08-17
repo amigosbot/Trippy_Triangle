@@ -37,9 +37,7 @@ async def start_(client: Client, message: Message):
         caption=f"""**
 『It's a Music bot without lag and struck .
   It's a official Music bot of [🗣«°ƜƐ ƮɑȴΚʂ ɑ ԼօТ°»✍ 2.0](https://t.me/Malayalam_Friends_Chat) 
-Nb : Bot and Userbot are locked by owner ,
-     who wish to add this bot to your group,
-     
+Nb : Bot and Userbot are locked by owner ,     
 **""",
 reply_markup=InlineKeyboardMarkup(
             [
@@ -48,6 +46,8 @@ reply_markup=InlineKeyboardMarkup(
                         "🔱🅖🅡🅞🅤🅟🔱", url=f"https://t.me/Malayalam_Friends_Chat"),
                     InlineKeyboardButton(
                         "🔱𝗢𝘄𝗻𝗲𝗿🔱", url=f"https://t.me/Lankeshanraavann"),
+                    InlineKeyboardButton(
+                        "🎶𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁🎶", url=f"https://t.me/Kanthari_Paru"),
                 ]
             ]
         ),
@@ -58,12 +58,14 @@ reply_markup=InlineKeyboardMarkup(
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://te.legra.ph/file/9dee892784a833fc1344e.jpg",
-        caption=f"""**Me on Ultra Fast,Laggless, and No struck**""",
+        caption=f"""**Me on Ultra Fast,Laggless, and No struck**\n 🥀Commands🥀\n\n `/play`\n\n\ `/pause`\n\n `/resume`\n\n `/skip`\n\n `/restart`\n\n admins only - `pause,resume,restart,skip`""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🔱രാവണൻ🔱", url=f"https://t.me/Lankeshanraavann")
+                        "🔱രാവണൻ🔱", url=f"https://t.me/Lankeshanraavann"),
+                    InlineKeyboardButton(
+                        "🎶𝗔𝘀𝘀𝗶💃𝘀𝘁𝗮𝗻𝘁🎶", url=f"https://t.me/Kanthari_Paru"),
                 ]
             ]
         ),
