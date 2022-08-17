@@ -2,7 +2,6 @@ aiohttp
 aiofiles
 asyncio
 dnspython
-ffmpeg-python
 future
 yt-dlp
 motor
