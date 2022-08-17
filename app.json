@@ -3,7 +3,7 @@
     "logo": "https://telegra.ph/file/d0b2899c25498fb52d0c8.jpg",
     "description": "An Advanced Premium Music Bot For Telegram Groups VC.",
     "keywords": ["music", "voice chat", "telegram","kalyani"],
-    "repository": "https://github.com/sakhaavvaavaj93/kalyani",
+    "repository": "https://github.com/sakhaavvaavaj93/we_talksmusic",
     "stack": "container",
     "env": {
         "API_ID": {
