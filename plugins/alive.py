@@ -58,7 +58,7 @@ reply_markup=InlineKeyboardMarkup(
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://te.legra.ph/file/9dee892784a833fc1344e.jpg",
-        caption=f"""**Me on Ultra Fast,Laggless, and No struck**\n 🥀Commands🥀\n\n `/play`\n\n\ `/pause`\n\n `/resume`\n\n `/skip`\n\n `/restart`\n\n admins only - `pause,resume,restart,skip`""",
+        caption=f"""**Me on Ultra Fast,Laggless, and No struck** \n🥀Commands🥀 \n\n`/play` \n\n\`/pause` \n\n`/resume` \n\n`/skip` \n\n`/restart` \n\nadmins only - `pause,resume,restart,skip`""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
