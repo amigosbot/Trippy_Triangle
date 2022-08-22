@@ -33,21 +33,21 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/309f7a7c61d99977a6fd7.jpg",
-        caption=f"""**
-『It's a Music bot without lag and struck .
-  It's a official Music bot of [🗣«°ƜƐ ƮɑȴΚʂ ɑ ԼօТ°»✍ 2.0](https://t.me/Malayalam_Friends_Chat) 
-Nb : Bot and Userbot are locked by owner ,     
+        photo=f"https://telegra.ph/file/9dba7ece56cb7d22f383d.jpg",
+        caption=f"""**Let's enjoy the Vibe with un-stopable 🎶 without any Lag and struck.\n\n It's a official Music bot of [༄A͎m͎i͎g͎o͎s͎࿐](https://t.me/amigozzworld) \n\nNB: Bot and Userbot are locked by owner ,
+🧾COMMANDS🧾 \n\nCommon Commands - `\play` \n\nAdmin Commands - `/pause`,`/skip`,`/resume`,`/end, /stop`,`restart`
+
+Join and Support our Group and Channel
 **""",
 reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🔱🅖🅡🅞🅤🅟🔱", url=f"https://t.me/Malayalam_Friends_Chat"),
+                        "🔱🅖🅡🅞🅤🅟🔱", url=f"https://t.me/amigozzworld"),
                     InlineKeyboardButton(
-                        "🔱𝗢𝘄𝗻𝗲𝗿🔱", url=f"https://t.me/Lankeshanraavann"),
+                        "🌠ᴄʜᴀɴɴᴇʟ🌠", url=f"https://t.me/trippyworld_420"),
                     InlineKeyboardButton(
-                        "🎶𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁🎶", url=f"https://t.me/Kanthari_Paru"),
+                        "🎶Oᴡɴᴇʀ🎶", url=f"https://t.me/Trippy_Trippy"),
                 ]
             ]
         ),
@@ -57,15 +57,15 @@ reply_markup=InlineKeyboardMarkup(
 @Client.on_message(commandpro(["/start", "/alive", "blackcat"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/9dee892784a833fc1344e.jpg",
+        photo=f"https://telegra.ph/file/9dba7ece56cb7d22f383d.jpg",
         caption=f"""**Me on Ultra Fast,Laggless, and No struck** \n🥀Commands🥀 \n\n`/play` \n\n\`/pause` \n\n`/resume` \n\n`/skip` \n\n`/restart` \n\nadmins only - `pause,resume,restart,skip`""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🔱രാവണൻ🔱", url=f"https://t.me/Lankeshanraavann"),
+                        "🏍️TrippY🏍️", url=f"https://t.me/Trippy_Trippy"),
                     InlineKeyboardButton(
-                        "🎶𝗔𝘀𝘀𝗶💃𝘀𝘁𝗮𝗻𝘁🎶", url=f"https://t.me/Kanthari_Paru"),
+                        "🎶ChanneL🎶", url=f"https://t.me/trippyworld_420"),
                 ]
             ]
         ),
