@@ -1,9 +1,9 @@
-## കല്യാണി
+## Trippy _ Triangle
 
 ### Best Smart Voice Chat Music Bot For Telegram Groups ...
 
 
-<p align="center"><a href="https://t.me/Stenzle_MariaMusicbot"><img src="https://telegra.ph/file/d0b2899c25498fb52d0c8.jpg"></a></p>
+<p align="center"><a href="https://t.me/Stenzle_MariaMusicbot"><img src="https://telegra.ph/file/9dba7ece56cb7d22f383d.jpg"></a></p>
 
 
 
@@ -15,7 +15,7 @@
 
 ### Deploy To Heroku
 
-[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sakhaavvaavaj93/we_talksmusic)
+[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sakhaavvaavaj93/Trippy_Triangle)
 
 
 
